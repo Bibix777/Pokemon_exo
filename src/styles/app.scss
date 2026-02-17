@@ -2,3 +2,35 @@
 @import 'components/type';
 
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    color: black;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    background-color: rgba(255, 255, 0, 0.461);
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
